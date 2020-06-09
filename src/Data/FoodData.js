@@ -53,6 +53,12 @@ export const foodItems = [
     img: 'https://via.placeholder.com/740x100.jpg',
     section: 'Sides',
     price: 1.5
+  },
+  {
+    price: 1,
+    name: 'Soda',
+    section: 'Drinks',
+    choices: ['Coke', 'Sprite', 'Root Beer']
   }
 ]
 
