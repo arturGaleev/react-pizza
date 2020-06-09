@@ -25,6 +25,26 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+         https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCWj2JSvMSQH1w3mlJswNRDACTqH5Llzno",
+        authDomain: "pizza-2c069.firebaseapp.com",
+        databaseURL: "https://pizza-2c069.firebaseio.com",
+        projectId: "pizza-2c069",
+        storageBucket: "pizza-2c069.appspot.com",
+        messagingSenderId: "883540402602",
+        appId: "1:883540402602:web:6b21d6847d3c8468364bd3"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
     <title>React App</title>
   </head>
   <body>
